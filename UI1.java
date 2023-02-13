@@ -24,7 +24,7 @@ public class UI1 extends JFrame{
 	 private JButton btn8;
 	 private JButton btn9;
 	 private JButton btn0;
-	 
+	 // button ëª©ë¡
 	 private JButton btnq;
 	 private JButton btnw;
 	 private JButton btne;
@@ -72,7 +72,7 @@ public class UI1 extends JFrame{
 		this.setSize(1100,700);
 		this.setLocationRelativeTo(null);
 		
-        //¹è°æÀÌ¹ÌÁö
+        //ï¿½ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½ï¿½
         label = new JLabel();
         label.setIcon(new ImageIcon("C:\\Java\\eclipse-workspace\\myjava\\study\\family.jpg"));
         label.setBounds(0, 0, 1100, 700);
@@ -105,7 +105,7 @@ public class UI1 extends JFrame{
         passText.addActionListener(new ActionListener() {          
             @Override
             public void actionPerformed(ActionEvent e) {
-            	//·Î±×ÀÎÃ¼Å©
+            	//ï¿½Î±ï¿½ï¿½ï¿½Ã¼Å©
             }
         });
        
@@ -128,10 +128,10 @@ public class UI1 extends JFrame{
         btnLogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            	//·Î±×ÀÎÃ¼Å©
+            	//ï¿½Î±ï¿½ï¿½ï¿½Ã¼Å©
             }
         });
-        //¼ıÀÚÅ°ÆĞµå
+        //ï¿½ï¿½ï¿½ï¿½Å°ï¿½Ğµï¿½
         btn0=new JButton("0");
         btn0.setBounds(310,350,50,25);
         btn0.setBackground(Color.yellow);
@@ -173,7 +173,7 @@ public class UI1 extends JFrame{
         btn9.setBackground(Color.yellow);
         panel.add(btn9);
         
-        //¿µ¹®Å°ÆĞµå
+        //ï¿½ï¿½ï¿½ï¿½Å°ï¿½Ğµï¿½
         
         btnq=new JButton("q");
         btnq.setBounds(310,375,50,25);
@@ -282,7 +282,7 @@ public class UI1 extends JFrame{
         btnm.setBackground(Color.yellow);
         panel.add(btnm);
         
-        JLabel managerphone= new JLabel("°ü¸®ÀÚ ¿¬¶ôÃ³:");
+        JLabel managerphone= new JLabel("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã³:");
         managerphone.setBounds(900, 550, 100, 50);
         panel.add(managerphone);
         
